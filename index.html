@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svg Uygulamaları</title>
+</head>
+<body>
+    <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" style="stroke: green; stroke-width:4px;" fill="yellow"></circle>
+    </svg>
+    <svg width="150" height="100">
+            <rect width="100%" height="100%" fill="green"/>
+            <circle cx="75" cy="50" r="40" fill="yellow"/>
+            <text x="75" y="60" font-size="30" text-anchor="middle" fill="red">SVG</text>
+    </svg>
+    <svg width="300" height="130">
+            <rect width="200" height="100" x="10" y="30" rx="20" ry="20" fill="blue"/>
+    </svg>
+    <svg width="320" height="130" >
+            <rect width="300" height="100" x="10" y="10" style="fill: rgb(0, 0, 255);stroke-width: 3;stroke: red;"/>
+
+    </svg>
+    <br>
+    <svg width="300" height="170">
+            <rect width="150" height="150" x="10" y="10" 
+            style="fill: blue;stroke: pink;stroke-width: 5;fill-opacity: 0.1;stroke-opacity: 0.9;"/>
+    </svg>
+    <svg width="300" height="170">
+        <rect width="150" height="150" x="10" y="10" rx="20" ry="20"  
+        style="fill: red;stroke: black;stroke-width: 5;opacity: 0.5;"/>
+    </svg>
+    <svg height="100" width="100">
+            <circle r="45" cx="50" cy="50" fill="red"/>
+    </svg>
+    <svg height="100" width="100">
+        <circle r="45" cx="50" cy="50" fill="red" stroke="green" stroke-width="3"/>
+    </svg>
+    <svg height="100" width="100">
+        <circle r="45" cx="50" cy="50" fill="red" stroke="green" stroke-width="3" opacity="0.5"/>
+    </svg>
+
+    <svg height="140" width="500">
+        <ellipse rx="100" ry="50" cx="120" cy="80" style="fill: yellow; stroke: green; stroke-width: 3;"/>
+    </svg>
+
+    <svg height="150" width="500">
+        <ellipse rx="220" ry="30" cx="240" cy="100" fill="purple"/>
+        <ellipse rx="190" ry="20" cx="220" cy="70" fill="lime"/>
+        <ellipse rx="170" ry="15" cx="210" cy="45" fill="yellow"/>
+    </svg>
+    <svg height="200" width="300">
+        <line x1="0" y1="0" x2="300" y2="200" style="stroke: red; stroke-width: 2;"/>
+    </svg>
+
+    <svg height="110" width="110">
+        <defs>
+            <filter id="f1">
+                <feDropShadow dx="12" dy="14" stdDevitation="1" flood-opacity="0.7"/>
+            </filter>
+        </defs>
+        <rect width="90" height="90" fill="yellow" filter="url(#f1)"/>
+    </svg>
+</body>
+</html>
